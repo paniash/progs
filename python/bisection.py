@@ -1,8 +1,6 @@
 # Python code for bisection method for finding the zero of a function
 
 import numpy as np
-import matplotlib.pyplot as plt
-from scipy.optimize import fsolve
 
 def f(x):
     return np.sin(x)
