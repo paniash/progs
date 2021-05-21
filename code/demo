@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# while :; do echo hi; done
+for((;;)){ echo hi; }
