@@ -38,6 +38,5 @@ state = execute(qc, backend).result().get_statevector()
 print("State of measured qubit =" + str(state))
 
 # After measurement, the amplitude of one of the states will always be zero, i.e.,
-# a collapse of the mixed state occurs on measurement and forces the state into a 
+# a collapse of the mixed state occurs on measurement and forces the state into a
 # pure state of either 0 or 1 with an equal probability in this case.
-

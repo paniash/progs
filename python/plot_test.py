@@ -16,4 +16,3 @@ ax.set_title('A simple graph')
 ax.legend()
 
 plt.show()
-

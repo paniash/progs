@@ -1,0 +1,24 @@
+#!/bin/bash
+
+name=ASHISH
+
+# Replace parameter with its value
+echo "$name"
+
+# Get parameter length
+echo "${#name}"
+
+# Extract substring ${parameter:offset:length}
+echo "${name:0:4}"
+
+# Capitalise first character
+echo "${name^}"
+
+# All majuscules
+echo "${name^^}"
+
+# First character is lowercase
+echo "${name,}"
+
+# All miniscules
+echo "${name,,}"

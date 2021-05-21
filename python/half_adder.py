@@ -43,5 +43,3 @@ result = execute(qc,simulator).result()
 counts = result.get_counts()
 
 print("The sum is", counts)
-
-

@@ -21,4 +21,3 @@ def bisection(a,b,tol):
 
 answer = bisection(-5,5,1e-8)
 print("Num:", answer)
-

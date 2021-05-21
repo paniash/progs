@@ -1,5 +1,5 @@
 # Using bubble sort to sort a given array
-# define an array 
+# define an array
 a = [56,23,76,2,182,9,0]
 
 for j in range(7):
@@ -11,7 +11,3 @@ for j in range(7):
     print("After", j+1, "th sort:", a)
 
 print("Sorted array is", a)
-
-
-
-
